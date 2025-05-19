@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KETA-SHOP - สินค้าใหม่</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand fw-bold" href="#">KETA-SHOP</a>
+      <a class="nav-link" href="#">ทั้งหมด</a>
+      <form class="d-flex search-bar mx-3 w-100">
+        <input class="form-control" type="search" placeholder="ค้นหาสินค้าที่ต้องการที่นี่..." aria-label="Search">
+        <button class="btn btn-warning ms-2" type="submit">🔍</button>
+      </form>
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item mx-2"><a class="nav-link" href="#">👤 เข้าสู่ระบบ</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="#">🛒</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-area">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="#">หน้าหลัก</a></li>
+          <li class="breadcrumb-item"><a href="#">สินค้ามาใหม่</a></li>
+          <li class="breadcrumb-item active" aria-current="page">สินค้าใหม่</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="container-fluid">
+    <div class="row">
+      
+      <!-- Sidebar -->
+      <aside class="col-md-3 category-sidebar">
+        <h5 class="mb-3">หมวดหมู่สินค้า</h5>
+        <ul class="list-unstyled">
+          <li><strong>หมวดเสื้อ</strong>
+            <ul>
+              <li>เสื้อแขนยาว และแขนสั้น</li>
+              <li>เสื้อแฟชั่น</li>
+            </ul>
+          </li>
+          <li><strong>หมวดกางเกง</strong>
+            <ul>
+              <li>กางเกงขาสั้น</li>
+              <li>กางเกงขายาว</li>
+              <li>กางเกงแฟชั่น</li>
+            </ul>
+          </li>
+          <li><strong>หมวดเครื่องประดับ</strong>
+            <ul>
+              <li>สร้อยคอ</li>
+              <li>กระเป๋า</li>
+              <li>เข็มขัด</li>
+            </ul>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="col-md-9 py-4 px-4">
+        <p class="text-muted">
+          คีตะช็อป จำหน่ายสินค้าแฟชั่น ชาย หญิง มีหลากหลายแบรนด์ให้เลือกสรรมากมาย 
+          <span class="text-danger fw-bold">การันตีของแท้</span> 
+          พร้อมโปรโมชั่นส่วนลด สามารถสั่งซื้อออนไลน์ได้ง่าย ๆ ในราคาพิเศษจากร้านคีตะช็อป
+        </p>
+        <h5 class="mb-3">สินค้าแนะนำ</h5>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card product-card text-center shadow-sm">
+                  
+                  <!-- รูปอยู่ในกรอบ padding -->
+                  <div class="product-image-wrapper p-3">
+                    <img src="#" class="img-fluid rounded shadow-sm" alt="สินค้า2">
+                  </div>
+              
+                  <div class="card-body pt-2">
+                    <h6 class="card-title">เสื้อคอปกสไตล์เกาหลี</h6>
+                    <p class="card-text">฿ 350 COD2</p>
+                  </div>
+                </div>       
+              </div>
+          <div class="col">
+            <div class="card product-card text-center shadow-sm">
+              
+              <!-- รูปอยู่ในกรอบ padding -->
+              <div class="product-image-wrapper p-3">
+                <img src="#" class="img-fluid rounded shadow-sm" alt="สินค้า2">
+            </div>
+          
+              <div class="card-body pt-2">
+                <h6 class="card-title">เสื้อคอปกสไตล์เกาหลี</h6>
+                <p class="card-text">฿ 350 COD2</p>
+              </div>
+            </div>       
+          </div>       
+          <div class="col">
+            <div class="card product-card text-center shadow-sm">
+              
+              <!-- รูปอยู่ในกรอบ padding -->
+              <div class="product-image-wrapper p-3">
+                <img src="#" class="img-fluid rounded shadow-sm" alt="สินค้า2">
+            </div>
+          
+              <div class="card-body pt-2">
+                <h6 class="card-title">เสื้อคอปกสไตล์เกาหลี</h6>
+                <p class="card-text">฿ 350 COD2</p>
+              </div>
+            </div>       
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Footer -->
+<footer class="bg-dark text-white mt-5">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>KETA-SHOP</h5>
+          <p>ร้านขายเสื้อผ้าและเครื่องประดับแฟชั่น พร้อมบริการจัดส่งทั่วประเทศ</p>
+        </div>
+        <div class="col-md-4">
+          <h6>เมนู</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">หน้าหลัก</a></li>
+            <li><a href="#" class="text-white text-decoration-none">สินค้าใหม่</a></li>
+            <li><a href="#" class="text-white text-decoration-none">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="text-white text-decoration-none">ติดต่อเรา</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6>ติดต่อ</h6>
+          <p>โทร: 099-123-4567<br>อีเมล: info@keta-shop.com</p>
+          <p>ที่อยู่: 123 ถนนแฟชั่น เขตบางรัก กรุงเทพฯ</p>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <small>© 2025 KETA-SHOP. สงวนลิขสิทธิ์.</small>
+      </div>
+    </div>
+  </footer>
+  
+
+</body>
+</html>
